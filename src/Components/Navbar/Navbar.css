@@ -35,6 +35,54 @@ nav ul li{
     /* background: #212Ea0; */
     background: #03183c;
     transition: 0.5s;
-    
-    
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width: 1150px){
+    .logo{
+        width: 300px;
+    }
+
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 1060px){
+    nav{
+        
+        padding: 10px 0;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #212EA0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 35px 40px;
+        
+        
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu{
+        right: -200px;
+    }
 }

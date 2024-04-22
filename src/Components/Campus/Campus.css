@@ -17,3 +17,14 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
+@media (max-width: 800px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+
+    .gallery img{
+        width: 48%;
+        gap: 25px;
+    }
+}
